@@ -6,11 +6,8 @@ import { Clock } from "./clock";
 export const Home: FC = () => {
   return (
     <div className="relative">
-      <img className="z-[-1] fixed inset-0  w-full h-full" src="" alt="background"/>
+      <img className="z-[-1] fixed inset-0  w-full h-full" src="/bg.jpeg" alt="background"/>
         <div className="flex flex-col justify-center items-center">
-          <div>
-            <h1>Mingche's Digital Realm</h1>
-          </div>
           <div className="font-bold text-4xl text-white">
             <Clock/>
         </div>
@@ -19,9 +16,5 @@ export const Home: FC = () => {
     
 
   );
-  function Bubble(){
-    <mesh>
-      
-    </mesh>
-  }
+
 };
