@@ -13,7 +13,7 @@ export const Clock:FC=()=>{
         return ()=> clearInterval(timer);
     },[currentTime]);
     return(
-        <div className="text-black">
+        <div className="">
             {currentTime}
         </div>
     )
