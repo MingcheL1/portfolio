@@ -20,9 +20,11 @@ export const Home: FC = () => {
             <div className="text-white max-w-md place-items-center">
               <h1 className="text-4xl font-bold mt-20">Overview:</h1>
               <p className="text-2xl break-words">
-                Hello, my name is <span className="font-bold">Mingche</span> and I am a Highschool student who enjoys software development.
-                I created this website because I feel like this would be one of the best ways to show my front-end web development skills
-                and to connect with other people who share similar interest. I am also planning to make a 3D version of this website after officially publishing it!
+                Hello, my name is <span className="font-bold">Mingche</span>, 
+                and I am a high school student with a passion for software development. 
+                I created this website to showcase my front-end web development skills 
+                and connect with others who share similar interests. 
+                In the future, I plan to develop a 3D version of this website after its official launch!
               </p>
             </div>
             <img src="Mingche.jpg" className="scale-75 rounded-md "/>
