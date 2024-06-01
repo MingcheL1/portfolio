@@ -4,24 +4,15 @@ import React from "react";
 export const Clock:FC=()=>{
     const d=new Date();
     const [currentTime, setCurrentTime]=useState("");
-    React.useEffect(() => {
-        const formatTime = (time: number): string => {
-            return time.toString().padStart(2, '0');
-        };
+    React.useEffect(()=>{
+        
+        const date=d.getHours()+" : "+d.getMinutes()+" : "+d.getSeconds();
+        const timer=setInterval(()=>{
+            setCurrentTime(date);
 
-        const updateClock = () => {
-            const d = new Date();
-            const hours = d.getHours();
-            const minutes = formatTime(d.getMinutes());
-            const seconds = formatTime(d.getSeconds());
-            setCurrentTime(`${hours} : ${minutes} : ${seconds}`);
-        };
-
-        updateClock(); 
-        const timer = setInterval(updateClock, 1000);
-
-        return () => clearInterval(timer);
-    }, []);
+        },1000);
+        return ()=> clearInterval(timer);
+    },[currentTime]);
     return(
         <div className="">
             {currentTime}
