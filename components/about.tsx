@@ -7,7 +7,7 @@ export const About:FC=()=>{
         <div>
             <div className="flex justify-center">
                 <img className="z-[-1] fixed inset-0  w-full h-full" src="/BG.png" alt="background"/>  
-                <img className="w-80 h-full mt-10" src="/Mingche2.JPG"/>
+                <img className="w-80 h-full mt-10" src="/Mingche2.jpg"/>
             </div>
             <div className="text-white text-center flex flex-col items-center">
                     <h1 className="font-bold text-4xl mt-10">ABOUT ME</h1>
