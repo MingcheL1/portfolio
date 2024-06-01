@@ -6,7 +6,7 @@ export const Technologies:FC=()=>{
     return(
         <div>
             <div className="flex flex-col items-center my-10 text-white">
-                Stuff I'm learning:
+                Languages I use:
                 <div className="flex space-x-4 mt-14">
                     <div className="relative group"><img src="/icons/html.png" className="w-8 h-8 links_anim"/><span className="popup_box">html</span></div>
                     <div className="relative group"><img src="/icons/css.png" className="w-8 h-8 links_anim" /><span className="popup_box">css</span></div>
