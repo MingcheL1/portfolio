@@ -61,6 +61,21 @@ export const Projects:FC=()=>{
                         </div>
                     </div>
                 </div>
+                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5 container_anim">
+                    <div className="flex items-center">
+                        <div className="w-1/3">
+                            <Link href="https://mingche.vercel.app/"><img src="/portfolio.png" alt="Mingche's Website" className="w-full h-auto rounded-md"/></Link>
+                        </div>
+                        <div className="w-2/3 ml-4">
+                        <Link href="https://mingche.vercel.app/" ><h2 className="text-xl font-semibold underline_anim">Mingche.com</h2></Link>
+                        <p className="text-gray-600">
+                            My second solo project following up the remake of questify in NextJS. This website is also my first published website that you are
+                            viewing right now! This website is mostly front end with a bit of backend on the contact me page, overall one of my favorite projects I've made.
+                            (Made with NextJS deployed with Vercel)
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
