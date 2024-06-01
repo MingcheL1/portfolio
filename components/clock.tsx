@@ -3,19 +3,19 @@ import React from "react";
 
 export const Clock:FC=()=>{
     const d=new Date();
-    const [currentTime, setCurrentTime]=useState("");
+    const [currentTime, setCurrentTime]=useState(new Date());
     React.useEffect(()=>{
         
-        const date=d.getHours()+" : "+d.getMinutes()+" : "+d.getSeconds();
+
         const timer=setInterval(()=>{
-            setCurrentTime(date);
+            setCurrentTime(new Date());
 
         },1000);
         return ()=> clearInterval(timer);
     },[currentTime]);
     return(
         <div className="">
-            {currentTime}
+            {currentTime.toLocaleTimeString()}
         </div>
     )
 }
