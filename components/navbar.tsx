@@ -19,10 +19,7 @@ export const Navbar:FC=()=>{
                         </Link>
                         <Link href="/pages/contact" className=" text-white underline_anim">
                             Contact
-                        </Link>
-                        <Link href="/pages/3D" className=" text-white underline_anim">
-                            3D Page
-                        </Link>         
+                        </Link> 
                     </div>
                 </div> 
             </div>

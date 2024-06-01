@@ -60,6 +60,13 @@ body {
   transform: scale(1.5) translateX(0) rotate(0);
 }
 
+.container_anim {
+  transition: transform 250ms ease;
+}
+.container_anim:hover {
+  transform: scale(1.1) translateX(0) rotate(0);
+}
+
 .popup_box {
   visibility: hidden;
   background-color: black;

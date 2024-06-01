@@ -7,7 +7,7 @@ export const Projects:FC=()=>{
         <div className="flex justify-center">
             <img className="z-[-1] fixed inset-0  w-full h-full" src="/BG.png" alt="background"/>
             <div className="space-y-10 mt-10 ">
-                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5">
+                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5 container_anim">
                     <div className="flex items-center">
                         <div className="w-1/3">
                             <Link href="https://youtu.be/SpOICVKIqJM"><img src="/Logo2.png" alt="questify logo" className="w-full h-auto rounded-md"/></Link>
@@ -15,12 +15,12 @@ export const Projects:FC=()=>{
                         <div className="w-2/3 ml-4">
                         <Link href="https://65ef5fa575301b094eb5e8ef--dazzling-jelly-ba9e11.netlify.app/home/home.html"><h2 className="text-xl font-semibold underline_anim">Questify</h2></Link>
                         <p className="text-gray-600">
-                            My first web dev project, won third place in SHSHacks24. This project was made in 24 hours along with my group. I later remade the project using NextJS.
+                            My first web dev project, won third place in my school hackathon. This project was made in 24 hours along with my group. I later remade the project using NextJS.
                         </p>
                         </div>
                     </div>
                 </div>
-                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5">
+                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5 container_anim">
                     <div className="flex items-center">
                         <div className="w-1/3">
                             <Link href="https://youtu.be/SpOICVKIqJM"><img src="/TaskMap.png" alt="TaskMap logo" className="w-full h-auto rounded-md"/></Link>
@@ -33,7 +33,7 @@ export const Projects:FC=()=>{
                         </div>
                     </div>
                 </div>
-                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5">
+                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5 container_anim">
                     <div className="flex items-center">
                         <div className="w-1/3">
                             <Link href="https://www.projectcad.org/"><img src="/ProjectCAD.png" alt="ProjectCAD Logo" className="w-full h-auto rounded-md"/></Link>
@@ -47,7 +47,7 @@ export const Projects:FC=()=>{
                         </div>
                     </div>
                 </div>
-                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5">
+                <div className="bg-white rounded-lg shadow-md max-w-md mt-20 p-5 container_anim">
                     <div className="flex items-center">
                         <div className="w-1/3">
                             <Link href="https://www.stembridged.com/"><img src="" alt="Stembridge Logo" className="w-full h-auto rounded-md"/></Link>
