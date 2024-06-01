@@ -70,7 +70,7 @@ export const Projects:FC=()=>{
                         <Link href="https://mingche.vercel.app/" ><h2 className="text-xl font-semibold underline_anim">Mingche.com</h2></Link>
                         <p className="text-gray-600">
                             My second solo project following up the remake of questify in NextJS. This website is also my first published website that you are
-                            viewing right now! This website is mostly front end with a bit of backend on the contact me page, overall one of my favorite projects I've made.
+                            viewing right now! This website is mostly front end with a bit of backend on the contact me page, overall one of my favorite projects I have made.
                             (Made with NextJS deployed with Vercel) {/* eslint-disable-line react/no-unescaped-entities */}
                         </p>
                         </div>
