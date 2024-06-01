@@ -6,8 +6,8 @@ export const Navbar:FC=()=>{
             <div className="bg-black py-2 w-full h-auto ">
                 <div className="grid grid-cols-[1fr_max-content_1fr] place-items-center">
                     <div className="ml-0 w-50">
-                        <Link href="/" className=" text-white underline_anim">
-                            Home 
+                        <Link href="/" className=" text-white ">
+                            <img src="/portfolio.png" className="w-20 h-20 container_anim"/>
                         </Link>
                     </div>
                     <div className="grid grid-flow-col gap-12 text-2xl ">
