@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const Navbar:FC=()=>{
     return(
-            <div className="bg-black py-2 w-full h-auto ">
+            <div className="bg-black py-2 w-full h-auto font-mono ">
                 <div className="grid grid-cols-[1fr_max-content_1fr] place-items-center">
                     <div className="ml-0 w-50">
                         <Link href="/" className=" text-white ">
