@@ -17,7 +17,7 @@ export const Clock:FC=()=>{
             setCurrentTime(`${hours} : ${minutes} : ${seconds}`);
         };
 
-        updateClock(); // Update clock immediately
+        updateClock(); 
         const timer = setInterval(updateClock, 1000);
 
         return () => clearInterval(timer);
