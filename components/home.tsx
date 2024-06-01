@@ -5,13 +5,14 @@ import { Clock } from "./clock";
 
 
 export const Home: FC = () => {
+  const date=new Date();
   return (
     <div className="relative">
       <img className="z-[-1] fixed inset-0  w-full h-full" src="/BG.png" alt="background"/>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-white text-6xl my-10 font-bold">Welcome to Mingche's Portfolio! {/* eslint-disable-line react/no-unescaped-entities */} </h1>
           <div className="font-bold text-6xl text-white my-10">
-            <Clock/>
+            <Clock time={date.getTime()}/>
           </div>
         </div>
         <div className="flex justify-center ml-80 ">
