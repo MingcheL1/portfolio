@@ -1,9 +1,11 @@
 import { FC, useState } from "react";
 import React from "react";
-
-export const Clock:FC=()=>{
+type Props={
+    time:number
+}
+export const Clock=({time:initial}: Props)=>{
     const d=new Date();
-    const [currentTime, setCurrentTime]=useState(new Date());
+    const [currentTime, setCurrentTime]=useState(new Date(initial));
     React.useEffect(()=>{
         
 
@@ -15,7 +17,11 @@ export const Clock:FC=()=>{
     },[currentTime]);
     return(
         <div className="">
-            {currentTime.toLocaleTimeString()}
+            {currentTime.toLocaleTimeString(undefined,{
+                hour:"2-digit",
+                minute:"2-digit",
+                second:"2-digit"
+            })}
         </div>
     )
 }
