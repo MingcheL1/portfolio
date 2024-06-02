@@ -89,10 +89,10 @@ export const Home:FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="md:w-1/2">
               <h3 className="text-2xl font-semibold mb-4">Interested in engineering and 3D modeling?</h3>
-              <p>Project CAD helps unlock the engineering potential in kids from any community</p>
+              <p>Project CAD helps unlock the potential in kids from any community</p>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img src="/projectCAD.png" className="w-48 h-auto rounded-md"/>
+              <img src="/ProjectCAD.png" className="w-48 h-auto rounded-md"/>
             </div>
           </div>
           <Link href="https://projectcad.org"><button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center">
