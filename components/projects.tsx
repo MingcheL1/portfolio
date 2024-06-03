@@ -46,7 +46,7 @@ export const Projects:FC=()=>{
                             <p className="text-gray-600 text-sm">
                                 Project CAD is a website that I helped making with a few other web devs for a non-profit organization called Project CAD.
                             </p>
-                            <Link href="/pages/projectCAD"><button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md  ">View More</button></Link>
+                            <Link href="https://projectcad.org"><button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md  ">Visit Site</button></Link>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ export const Projects:FC=()=>{
                             <p className="text-gray-600 text-sm">
                                 I use to tutor math at this non-profit. As I developed my skill in web dev, the founder decided to recruit me to help him write the website.
                             </p>
-                            <Link href="/pages/stembridge"><button className="my-2 bg-black flex justify-center text-white rounded-xl p-2  shadow-md ">View More</button></Link>
+                            <Link href="https://stembridged.com"><button className="my-2 bg-black flex justify-center text-white rounded-xl p-2  shadow-md ">Visit Site</button></Link>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ export const Projects:FC=()=>{
                             <p className="text-gray-600 text-sm">
                                 My second solo project following up the remake of questify in NextJS. This website is also my first published website that you are viewing right now!{/* eslint-disable-line react/no-unescaped-entities */}
                             </p>
-                            <Link href="https://mingche.vercel.app/"><button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md  ">View More</button></Link>
+                            <Link href="https://mingche.vercel.app/"><button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md  ">Visit Site</button></Link>
                         </div>
                     </div>
                 </div>

@@ -71,7 +71,7 @@ export const Home:FC = () => {
       </div>
       <div className="flex flex-col justify-center items-center text-white">
         <h1 className="text-4xl font-bold">News</h1>
-        <div ref={newsSectionRef} className="bg-gray-900 text-white p-6 mt-10 backdrop-opacity-90 rounded-xl w-auto h-70 ">
+        <div ref={newsSectionRef} className="bg-gray-900 text-white p-6 mt-10 backdrop-opacity-90 rounded-xl h-70 "style={{width:"750px"}}>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="md:w-1/2">
               <h3 className="text-2xl font-semibold mb-4">STEM BRIDGE IS OFFICIALLY LAUNCHING <Rocket className="ml-2"/></h3>
@@ -81,7 +81,7 @@ export const Home:FC = () => {
               <img src="/stembridge.png" className="w-36 h-auto rounded-md"/>
             </div>
           </div>
-          <Link href="https://stembridged.com"><button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center">
+          <Link href="https://stembridged.com"><button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center container_anim">
             Visit Site <CornerRightUp className="ml-2"/>
           </button></Link>
         </div>
@@ -95,7 +95,7 @@ export const Home:FC = () => {
               <img src="/ProjectCAD.png" className="w-48 h-auto rounded-md"/>
             </div>
           </div>
-          <Link href="https://projectcad.org"><button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center">
+          <Link href="https://projectcad.org"><button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center container_anim">
             Visit Site <CornerRightUp className="ml-2"/>
           </button></Link>
         </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Page=()=>{
     return(
         <div className="flex flex-col items-center justify-center text-white space-mono-regular">
@@ -23,6 +25,11 @@ const Page=()=>{
                 and we are all very proud that we we're able to pull it through. Although this website is being hosted, it is not for actual use since it is 
                 just a school hack-a-thon project.
             </p>
+            <div className="grid grid-cols-[1fr_max-content_1fr] place-items-center space-x-6">
+                <Link href="https://65ef5fa575301b094eb5e8ef--dazzling-jelly-ba9e11.netlify.app/home/home.html"><button className="bg-green-500 rounded-md text-black p-2 container_anim">View Site</button></Link> 
+                <Link href="https://www.youtube.com/embed/SpOICVKIqJM?si=yco4oNIwh5yDx3So"><button className="bg-green-500 rounded-md text-black p-2 container_anim">View Video</button></Link>
+            </div>
+
         </div>
     )
 }
