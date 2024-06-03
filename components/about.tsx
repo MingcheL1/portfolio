@@ -11,7 +11,7 @@ export const About:FC=()=>{
             </div>
             <div className="text-white text-center flex flex-col items-center">
                     <h1 className="font-bold text-4xl mt-10">ABOUT ME</h1>
-                    <p className="break-words text-2xl mt-4 max-w-4xl">
+                    <p className="break-words text-2xl mt-4 max-w-4xl space-mono-regular">
                         I am Mingche, a junior in high school with a passion for coding, gym, music, video games, and YouTube. 
                         I began coding in 2015 with Scratch and moved to Python in 2021, creating various projects including an 
                         unfinished text RPG game. In high school, I took several computer science classes and participated in hackathons, 
