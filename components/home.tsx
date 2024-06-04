@@ -69,7 +69,7 @@ export const Home:FC = () => {
               Hello, my name is <span className="font-bold">Mingche</span>, and I am a high school student with a passion for software development. I created this website to showcase my front-end web development skills and connect with others who share similar interests. In the future, I plan to develop a 3D version of this website after its official launch!
             </p>
           </div>
-          <img src="Mingche.jpg" className="lg:scale-75 md:scale-50 sm:scale-[25%] rounded-md" />
+          <img src="Mingche.jpg" className="max-w-full h-auto lg:w-3/4 md:w-1/2 sm:w-1/4 rounded-md" />
         </div>
       </div>
       <div ref={newsSectionRef} className="flex flex-col justify-center items-center text-white ">

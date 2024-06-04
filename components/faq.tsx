@@ -39,7 +39,7 @@ export const FAQ: FC = () => {
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium ">
-                <span>How should I start my own portfolio website but I have no prior experience of web dev, what should I do?</span>
+                <span>How should I start with web dev?</span>
                 <span className="transition group-open:rotate-180">
                     <ChevronUp />
                 </span>
