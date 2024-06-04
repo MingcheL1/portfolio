@@ -46,7 +46,7 @@ export const Home:FC = () => {
         alt="background"
       />
       <img
-        className={`z-[-1] fixed inset-0 w-full h-full transition-opacity duration-1000 ${
+        className={`z-[-1] fixed inset-0 bg-cover transition-opacity duration-1000 ${
           isNewsVisible ? "opacity-100" : "opacity-0"
         }`}
         src="/earth.png"

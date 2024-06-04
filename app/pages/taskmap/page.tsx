@@ -3,7 +3,7 @@ import Link from "next/link";
 const Page=()=>{
     return(
         <div className="flex flex-col items-center justify-center text-white space-mono-regular">
-            <img className="z-[-1] fixed inset-0 w-full h-full" src="/saturn.png" alt="bg"/>
+            <img className="z-[-1] fixed inset-0 bg-cover" src="/saturn.png" alt="bg"/>
             <h1 className="my-10  text-6xl font-bold font-sans">TASK MAP</h1>
             <img src="/taskmapshowcase.png" style={{ border: '3px solid rgba(255, 255, 255, 0.5)', borderRadius: '0.375rem', width: '840px', height: '452px'}} />
             <p className=" text-xl space-mono-regular my-10 word-break max-w-2xl">
