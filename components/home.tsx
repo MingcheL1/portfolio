@@ -96,7 +96,7 @@ export const Home: FC = () => {
             </button>
           </Link>
         </div>
-        <div className="bg-gray-900 text-white p-6 mt-10 backdrop-opacity-90 rounded-xl w-full">
+        <div className="bg-gray-900 lg:w-[750px] md:w-[500px] sm:w-full text-white p-6 mt-10 backdrop-opacity-90 rounded-xl w-full">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="md:w-1/2">
               <h3 className="text-2xl font-semibold mb-4">
