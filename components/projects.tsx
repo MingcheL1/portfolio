@@ -10,6 +10,28 @@ export const Projects: FC = () => {
         alt="background"
       />
       <div className="flex flex-wrap justify-center space-x-0 lg:space-x-10 mt-10 px-4 w-full">
+      <div className="bg-white rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 p-5 container_anim mb-10 h-auto">
+          <div className="flex flex-col md:flex-row items-center h-full">
+            <div className="w-full md:w-1/3">
+              <img
+                src="/bumblebee.png"
+                alt="questify logo"
+                className="w-full h-auto rounded-md"
+              />
+            </div>
+            <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Bumblebee Flight Control</h2>
+              <p className="text-xs sm:text-sm md:text-base text-gray-600">
+                Software system programmed for flight control.
+              </p>
+              <Link href="/pages/uas4stem">
+                <button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md text-xs sm:text-sm md:text-base">
+                  View More
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
         <div className="bg-white rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 p-5 container_anim mb-10 h-auto">
           <div className="flex flex-col md:flex-row items-center h-full">
             <div className="w-full md:w-1/3">
