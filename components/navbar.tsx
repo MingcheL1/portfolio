@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export const Navbar:FC=()=>{
     return(
-            <div className="bg-black py-2 w-full h-auto font-mono ">
+            <div className="bg-black py-2 lg:w-full md:w-80 sm:w-40 h-auto font-mono ">
                 <div className="grid grid-cols-[1fr_max-content_1fr] place-items-center">
-                    <div className="ml-0 w-50">
+                    <div className="ml-0 lg:w-64 md:w-36 sm:24 ">
                         <Link href="/" className=" text-white ">
                             <img src="/portfolio.png" className="w-20 h-20 container_anim"/>
                         </Link>
