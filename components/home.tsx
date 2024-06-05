@@ -76,7 +76,7 @@ export const Home: FC = () => {
           />
         </div>
       </div>
-      <div ref={newsSectionRef} className="flex flex-col justify-center items-center text-white px-4">
+      <div ref={newsSectionRef} className="flex flex-col justify-center items-center text-white px-4 mt-10">
         <h1 className="lg:text-4xl sm:text-2xl text-xl font-bold">News</h1>
         <div className="bg-gray-900 lg:w-[750px] md:w-[500px] sm:w-full w-full text-white p-6 mt-10 backdrop-opacity-90 rounded-xl">
           <div className="flex flex-col md:flex-row justify-between items-center">
