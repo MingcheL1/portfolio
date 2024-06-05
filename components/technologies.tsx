@@ -7,7 +7,7 @@ export const Technologies:FC=()=>{
         <div>
             <div className="flex flex-col items-center my-10 text-white">
                 Languages I use:
-                <div className="flex space-x-4 mt-14">
+                <div className="flex gap-4 mt-14">
                     <Link href="https://www.w3schools.com/html/html_intro.asp"><div className="relative group"><img src="/icons/html.png" className="w-8 h-8 links_anim"/><span className="popup_box">html</span></div></Link>
                     <Link href="https://www.w3schools.com/css/default.asp"><div className="relative group"><img src="/icons/css.png" className="w-8 h-8 links_anim" /><span className="popup_box">css</span></div></Link>
                     <Link href="https://tailwindcss.com/docs/installation"><div className="relative group"><img src="/icons/tailwind.png" className="w-10 h-10 links_anim"/><span className="popup_box">tailwind css</span></div></Link>
