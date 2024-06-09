@@ -34,6 +34,9 @@ export const Navbar: FC = () => {
           <Link href="/pages/contact" className="underline_anim">
             Contact
           </Link>
+          <Link href="/pages/other" className="underline_anim">
+            Other
+          </Link>
         </div>
       </div>
       {isMenuOpen && (
@@ -46,6 +49,9 @@ export const Navbar: FC = () => {
           </Link>
           <Link href="/pages/contact" className="underline_anim" onClick={toggleMenu}>
             Contact
+          </Link>
+          <Link href="/pages/other" className="underline_anim">
+            Other
           </Link>
         </div>
       )}

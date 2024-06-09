@@ -82,6 +82,24 @@ export const Home: FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="md:w-1/2">
               <h3 className="text-2xl font-semibold mb-4">
+                Check out my customized terminal, Starshell!
+              </h3>
+              <p>Customized powershell terminal with background switching, custom scripts and more.</p>
+            </div>
+            <div className="md:w-1/2 flex justify-center">
+              <img src="/Starshell.png" className="w-auto h-40 rounded-md" />
+            </div>
+          </div>
+          <Link href="https://github.com/MingcheL1/Starshell">
+            <button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center mt-4 container_anim">
+              View Config <CornerRightUp className="ml-2" />
+            </button>
+          </Link>
+        </div>
+        <div className="bg-gray-900 lg:w-[750px] md:w-[500px] sm:w-full w-full text-white p-6 mt-10 backdrop-opacity-90 rounded-xl">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="md:w-1/2">
+              <h3 className="text-2xl font-semibold mb-4">
                 STEM BRIDGE IS OFFICIALLY LAUNCHING <Rocket className="ml-2" />
               </h3>
               <p>Stem bridge is a non-profit organization that tutors students in math and coding for free</p>
