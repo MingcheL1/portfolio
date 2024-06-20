@@ -82,17 +82,17 @@ export const Home: FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="md:w-1/2">
               <h3 className="text-2xl font-semibold mb-4">
-                Check out my customized terminal, Starshell!
+                New Video On My YouTube Channel - Nerd Theory
               </h3>
-              <p>Customized powershell terminal with background switching, custom scripts and more.</p>
+              <p>The video took me 6 hours to edit :/</p>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img src="/Starshell.png" className="w-auto h-40 rounded-md" />
+              <img src="/thumbnail.jpg" className="w-auto h-40 rounded-md" />
             </div>
           </div>
-          <Link href="https://github.com/MingcheL1/Starshell">
+          <Link href="https://youtu.be/EXxyuR0tJ4g">
             <button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center mt-4 container_anim">
-              View Config <CornerRightUp className="ml-2" />
+              View Video <CornerRightUp className="ml-2" />
             </button>
           </Link>
         </div>
