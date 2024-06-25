@@ -14,28 +14,6 @@ export const Projects: FC = () => {
           <div className="flex flex-col md:flex-row items-center h-full">
             <div className="w-full md:w-1/3">
               <img
-                src="/Logo2.png"
-                alt="notestack logo"
-                className="w-full h-auto rounded-md"
-              />
-            </div>
-            <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Note Stack</h2>
-              <p className="text-xs sm:text-sm md:text-base text-gray-600">
-                All in one AI note-taking app. Won Windy City Hacks second place/runner up.
-              </p>
-              <Link href="/pages/notestack">
-                <button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md text-xs sm:text-sm md:text-base">
-                  View More
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      <div className="bg-white rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 p-5 container_anim mb-10 h-auto">
-          <div className="flex flex-col md:flex-row items-center h-full">
-            <div className="w-full md:w-1/3">
-              <img
                 src="/bumblebee.png"
                 alt="questify logo"
                 className="w-full h-auto rounded-md"
@@ -166,6 +144,28 @@ export const Projects: FC = () => {
               <Link href="https://mingche.vercel.app/">
                 <button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md text-xs sm:text-sm md:text-base">
                   Visit Site
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 p-5 container_anim mb-10 h-auto">
+          <div className="flex flex-col md:flex-row items-center h-full">
+            <div className="w-full md:w-1/3">
+              <img
+                src="/windycityhackslogo.JPG"
+                alt="notestack logo"
+                className="w-full h-auto rounded-md"
+              />
+            </div>
+            <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Note Stack</h2>
+              <p className="text-xs sm:text-sm md:text-base text-gray-600">
+                All in one AI note-taking app. Won Windy City Hacks second place/runner up.
+              </p>
+              <Link href="/pages/notestack">
+                <button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md text-xs sm:text-sm md:text-base">
+                  View More
                 </button>
               </Link>
             </div>
