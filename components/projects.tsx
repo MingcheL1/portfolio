@@ -20,7 +20,7 @@ export const Projects: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Bumblebee Flight Control</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Bumblebee Flight Control</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 Software system programmed for flight control.
               </p>
@@ -42,7 +42,7 @@ export const Projects: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Questify</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Questify</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 My first web dev project, won third place in my school hackathon.
                 This project was made in 24 hours along with my group. I later remade
@@ -66,7 +66,7 @@ export const Projects: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Task Map</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Task Map</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 My second hackathon project, won HSHACKS second place. Unfortunately, it
                 is unfinished because we had only 8 hours to do it.
@@ -89,7 +89,7 @@ export const Projects: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Project CAD</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Project CAD</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 Project CAD is a website that I helped make with a few other web devs for
                 a non-profit organization called Project CAD.
@@ -112,7 +112,7 @@ export const Projects: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Stem Bridge</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Stem Bridge</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 I used to tutor math at this non-profit. As I developed my skill in web
                 dev, the founder decided to recruit me to help him write the website.
@@ -135,7 +135,7 @@ export const Projects: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Mingche.com</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Mingche.com</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 My second solo project following up the remake of Questify in NextJS.
                 This website is also my first published website that you are viewing right
@@ -159,7 +159,7 @@ export const Projects: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Note Stack</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Note Stack</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 All in one AI note-taking app. Won Windy City Hacks second place/runner up.
               </p>
