@@ -84,13 +84,13 @@ export const Home: FC = () => {
               <h3 className="text-2xl font-semibold mb-4">
                 New Video On My YouTube Channel - Nerd Theory
               </h3>
-              <p>Tips & Tricks to winning a hackathon </p>
+              <p>Exposing AP Precalculus</p>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img src="/thumbnail.jpg" className="w-auto h-40 rounded-md" />
+              <img src="/thumbnail.png" className="w-auto h-40 rounded-md" />
             </div>
           </div>
-          <Link href="https://youtu.be/0rdEWANOFnA">
+          <Link href="https://youtu.be/w1xsWFgAgcc">
             <button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center mt-4 container_anim">
               View Video <CornerRightUp className="ml-2" />
             </button>
