@@ -90,7 +90,7 @@ export const Home: FC = () => {
               <img src="/thumbnail.jpg" className="w-auto h-40 rounded-md" />
             </div>
           </div>
-          <Link href="https://youtu.be/0rdEWANOFnA">
+          <Link href="https://youtu.be/LJc6vKo7Xmo">
             <button className="bg-green-500 text-white py-2 px-4 rounded-lg flex items-center mt-4 container_anim">
               View Video <CornerRightUp className="ml-2" />
             </button>
