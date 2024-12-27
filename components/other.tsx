@@ -20,7 +20,7 @@ export const Other: FC = () => {
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim">Starshell</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Starshell</h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 Self-Customized Powershell
               </p>

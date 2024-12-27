@@ -84,7 +84,7 @@ export const Home: FC = () => {
               <h3 className="text-2xl font-semibold mb-4">
                 New Video On My YouTube Channel - Nerd Theory
               </h3>
-              <p>Tips & Tricks to winning a hackathon </p>
+              <p>Ubuntu Hyprland Rice Showcase </p>
             </div>
             <div className="md:w-1/2 flex justify-center">
               <img src="/thumbnail.jpg" className="w-auto h-40 rounded-md" />
