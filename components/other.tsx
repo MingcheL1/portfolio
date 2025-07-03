@@ -10,17 +10,19 @@ export const Other: FC = () => {
         alt="background"
       />
       <div className="flex flex-wrap justify-center space-x-0 lg:space-x-10 mt-10 px-4 w-full">
-      <div className="bg-white rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 p-5 container_anim mb-10 h-auto">
+        <div className="bg-white rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 p-5 container_anim mb-10 h-auto">
           <div className="flex flex-col md:flex-row items-center h-full">
             <div className="w-full md:w-1/3">
               <img
                 src="/Starshell.png"
-                alt="questify logo"
+                alt="starshell"
                 className="w-full h-auto rounded-md"
               />
             </div>
             <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">Starshell</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">
+                Starshell
+              </h2>
               <p className="text-xs sm:text-sm md:text-base text-gray-600">
                 Self-Customized Powershell
               </p>
@@ -32,7 +34,32 @@ export const Other: FC = () => {
             </div>
           </div>
         </div>
+        <div className="bg-white rounded-lg shadow-md w-full md:w-1/2 lg:w-1/4 p-5 container_anim mb-10 h-auto">
+          <div className="flex flex-col md:flex-row items-center h-full">
+            <div className="w-full md:w-1/3">
+              <img
+                src="/tux.png"
+                alt="dotfiles"
+                className="w-full h-auto rounded-md"
+              />
+            </div>
+            <div className="w-full md:w-2/3 md:ml-4 mt-4 md:mt-0">
+              <h2 className="text-lg sm:text-xl md:text-2xl font-semibold underline_anim text-black">
+                Dotfiles
+              </h2>
+              <p className="text-xs sm:text-sm md:text-base text-gray-600">
+                My customized configuration for Ubuntu Hyprland
+              </p>
+              <Link href="https://github.com/MingcheL1/dotfiles">
+                <button className="my-2 bg-black flex justify-center text-white rounded-xl p-2 shadow-md text-xs sm:text-sm md:text-base">
+                  View Setup
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
+
     </div>
   );
 };
